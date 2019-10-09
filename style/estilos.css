@@ -46,12 +46,13 @@ body {
     display: block;
     margin: 0 auto;/*para centrar la imagen*/
 }
-#cuzco {
-    height: 400px;
+/******************************/
+.cuzco {
+    height: 300px;
     width: 100%;
     padding: 20px 0 ;
 }
-#pr {
+.pr {
     height: 300px;
     width: 90%;
     padding:  0 ;
@@ -60,7 +61,14 @@ body {
     margin: 0 auto;
     border-radius: 20px;    
 }
-#photo {
+.viaje {
+    position: relative;
+    top: 0px;
+    left:0px;
+    height: 150px;
+    width: 100%;
+}
+.photo {
     height: 150px;
     width: 100%;
     padding: 0;
@@ -69,7 +77,7 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-#ofertas {
+.ofertas {
     height: 150px;
     width: 100%;
     background: white;
@@ -79,7 +87,7 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-#precio {
+.precio {
     height: 30px;
     width: 80px;
     background: black;
@@ -87,75 +95,96 @@ body {
     opacity:0.6;
     border-top-left-radius: 20px;/*Borde izquierdo superior*/
     border-bottom-right-radius: 20px;/*Borde derecho inferier*/ 
-    
+    position: absolute;
+    top: 0px;
+    left:0px;
 } 
-#price {
+.price {
     text-align: center;
     font-size: 10px;
     display: block;
+    cursor: pointer;
     margin: 0 auto;
     padding: 5px;
-    font-family: Open Sans;
 }
 /*Debajo de la imagen de cuzco*/
-#vacio {
+.vacio {
     height: 40px;
     width: 100%;
 }
-#ubic {
+.ubic {
     height: 35px;
     width: 70%;
     margin: 0 auto;
 }
-#time {
+.time {
     height: 35px;
     width: 70%;
     margin: 0 auto;
 }
-#tx {
+.tx {
     height: 40px;
     width: 100%;
 }
-#location {
+.location {
     float: left;
     height: 35px;
     width: 15%;
     margin: 0 auto;
     padding: 0 auto;
 }
-#cus {
+.cus {
     margin: 0 auto;
     padding: 0 auto;
 }
-#cusLetra {
+.cusLetra {
     height: 15px;
     width: 80%;
     margin: 10px 20%;
 }
-#clock {
+.clock {
     float: left;
     height: 35px;
     width: 15%;
     margin: 0 auto;
     padding: 0 auto;
 }
-#dn {
+.dn {
     margin: 0 auto;
     padding: 0 auto;
 }
-#dnLetra {
+.dnLetra {
     height: 15px;
     width: 80%;
     margin: 10px 20%;
 }
-#tx {
+.tx {
     margin: 0 auto;
 
 }
-#sm {
+.sm {
     color: orangered; 
     font-family: Open Sans;
     margin: 0;
     font-size: 16px;
-    text-align: center;   
+    text-align: center;  
+}
+/*CAJA DE MÁS EXPERIENCIAS*/
+#cajaDeMasExpe {
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#CajaNaranja {
+    background: orangered;
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 10px;
+}
+#txt {
+    color: white;
+    margin: 0 auto;
 }
