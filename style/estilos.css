@@ -46,3 +46,99 @@ body {
     display: block;
     margin: 0 auto;/*para centrar la imagen*/
 }
+#cuzco {
+    height: 400px;
+    width: 100%;
+    padding: 20px 0 ;
+}
+#pr {
+    height: 300px;
+    width: 90%;
+    padding:  0 ;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;    
+}
+#photo {
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#ofertas {
+    height: 150px;
+    width: 100%;
+    background: red;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#precio {
+    height: 30px;
+    width: 80px;
+    background: black;
+    color: white;
+    opacity:0.6;
+    border-top-left-radius: 20px;/*Borde izquierdo superior*/
+    border-bottom-right-radius: 20px;/*Borde derecho inferier*/ 
+    
+} 
+#price {
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Open Sans;
+}
+/*Debajo de la imagen de cuzco*/
+#vacio {
+    height: 40px;
+    width: 100%;
+}
+#ubic {
+    height: 35px;
+    width: 70%;
+    margin: 0 auto;
+}
+#time {
+    height: 35px;
+    width: 70%;
+    margin: 0 auto;
+}
+#tx {
+    height: 40px;
+    width: 100%;
+}
+#location {
+    float: left;
+}
+#cus {
+
+}
+#clock {
+    float: left;
+}
+#dn {
+
+}
+#tx {
+    margin: 0 auto;
+
+}
+#sm {
+    margin: 0 auto;
+
+}
+#C1 {
+    float: left;
+}
+#C2 {
+    float: left;
+}
