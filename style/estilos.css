@@ -10,13 +10,14 @@ body {
 }
 #mobile {
     width: 60px;
-    height: 20px;
+    height: 50px;
     margin-top: -40px;
     float: right;
+    cursor: pointer;
+
 }
 #mobile span {
     display: block;
-    cursor: pointer;
     margin: 6px 0;  
     border-radius: 5px;
     height: 7px;
@@ -209,6 +210,39 @@ body {
     border-radius: 10px;
 }
 #txt {
+    display: block;
     color: white;
     margin: 0 auto;
+}
+/*  caja de comentarios */
+#contact {
+    background: #f1f1f1;
+    padding: 20px 0;  
+}
+#contact form{
+    margin: 0 10%;
+    padding: 20px 10%;
+    background: white;  
+}
+#contact form label{
+    font-size: 14px;
+}
+#contact form.inputs{
+    border-radius: 10px;
+    border: 1px solid #979797;
+    margin-bottom: 6px;
+    width: 100%;
+    padding: 2px 3px;
+}
+#contact form button{
+    display: block;
+    margin: 0 auto;
+    background: #ff9801;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+#contact form input{
+    width: 100%;
 }
