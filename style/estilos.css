@@ -23,6 +23,30 @@ body {
     width: 100%;
     background: white;
 }
+/*nav-mibile*/
+.nav-mobile {
+    display: none;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    background: white;
+}
+.nav-mobile ul li{
+    list-style: none;
+}
+.nav-mobile ul li a{
+    display: block;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+.nav-mobile ul li a:hover {
+    color: #48D7B7;
+}
+
+
+
+/*         */
 /*Banner*/
 #banner {
     background: #48D7B7;
